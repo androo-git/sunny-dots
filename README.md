@@ -20,7 +20,8 @@ Screenshot:
 | file manager | ranger         |
 | wall+colours | pywal          |
 | blur/shadows | picom          |
-| display mngr | lf             |
+| display mngr | ly             |
 
 # other info
 - the config file for ly is a symlink back to /etc/ly/config.ini
+- ly will be a pain to install!
