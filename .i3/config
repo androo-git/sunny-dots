@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod4
+set $mod Mod1
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -431,6 +431,9 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+
+# starts pywal - restore pywal colours and wallpaper
+exec_always --no-startup-id wal -q -i '/home/androo/.wallpapers/hacker-wallpaper.png'
 
 # polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

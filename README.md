@@ -18,4 +18,9 @@ Screenshot:
 | bars         | polybar        |
 | terminal     | alacritty      |
 | file manager | ranger         |
-| wallpaper    | check .wallpapers |
+| wall+colours | pywal          |
+| blur/shadows | picom          |
+| display mngr | lf             |
+
+# other info
+- the config file for ly is a symlink back to /etc/ly/config.ini

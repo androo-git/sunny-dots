@@ -14,7 +14,7 @@
 !.config/picom.conf
 !.config/polybar/
 !.config/wal/
-
+!.config/ly/
 !.wallpapers/
 
 !.scripts/
