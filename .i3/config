@@ -446,3 +446,11 @@ bindsym $mod+Shift+m exec $HOME/.local/share/applications/cider.desktop
 exec --no-startup-id i3-layouts
 set $ws1 1
 set $i3l vstack
+
+# remap alt_gr to super key
+#exec_always --no-startup-id xmodmap -e "keycode 108 = Super_L"
+#exec_always --no-startup-id xmodmap -e "keycode 108 = Alt_L"
+#exec_always --no-startup-id xmodmap -e "remove mod5 = ISO_Level3_Shift" -e "add mod1 = ISO_Level3_Shift"
+
+# mouse pointer acceleration speed
+exec_always --no-startup-id xinput set-prop "pointer:TPPS/2 IBM TrackPoint" "libinput Accel Speed" 0.5
