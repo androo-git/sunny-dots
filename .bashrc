@@ -146,6 +146,6 @@ alias pfetch='sh ~/.scripts/pfetch.sh'
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
 # Not supported in the "fish" shell.
-(cat /home/sun/.cache/wal/sequences &)
+(cat ~/.cache/wal/sequences &)
 
 alias music='~/stuff/applications/Cider-2.2.0.AppImage'
